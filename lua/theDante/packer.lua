@@ -22,6 +22,7 @@ return require('packer').startup(function(use)
     use{ 'akinsho/bufferline.nvim'}
     use{ 'windwp/nvim-autopairs'}
     use{ 'windwp/nvim-ts-autotag'}
+    use{ 'lukas-reineke/indent-blankline.nvim'}
 	use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
