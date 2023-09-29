@@ -1,10 +1,10 @@
 vim.g.catppuccin_flavour = "latte" -- latte, frappe, macchiato, mocha
 
 require("catppuccin").setup({transparent_background = true,
-			     term_colors = true,
-                 color_overrides = {
-  latte = { -- copied from gruvbox theme
-   rosewater = "#ffc6be",
+			 term_colors = true,
+             color_overrides = {
+                  liatte = { -- copied from gruvbox theme
+                    rosewater = "#ffc6be",
 					flamingo = "#fb4934",
 					pink = "#ff75a0",
 					mauve = "#f2594b",
@@ -30,8 +30,7 @@ require("catppuccin").setup({transparent_background = true,
 					base = "#282828",
 					mantle = "#1d2021",
 					crust = "#1b1b1b",
-  }}
-		})
+                }
+            }
+})
 vim.cmd [[colorscheme catppuccin]]
-
-

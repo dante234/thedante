@@ -23,6 +23,8 @@ return require('packer').startup(function(use)
     use{ 'windwp/nvim-autopairs'}
     use{ 'windwp/nvim-ts-autotag'}
     use{ 'lukas-reineke/indent-blankline.nvim'}
+    use{'jose-elias-alvarez/null-ls.nvim'}
+    use{'tpope/vim-fugitive'}
 	use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
