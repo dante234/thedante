@@ -19,7 +19,7 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("t","<C-q>",[[<C-\><C-n>]])
 
 --------New tab----
-vim.keymap.set("n","te",':tabedit<CR>')
+vim.keymap.set("n","te",':tabedit<CR>',{silent = true})
 
 ---split windows
 vim.keymap.set("n","ss",":split<Return><C-w>w")
