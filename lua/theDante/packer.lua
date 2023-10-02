@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
     use{ 'lukas-reineke/indent-blankline.nvim'}
     use{'jose-elias-alvarez/null-ls.nvim'}
     use{'tpope/vim-fugitive'}
+    use{'norcalli/nvim-colorizer.lua'}
 	use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',

@@ -4,7 +4,7 @@ local status,blankline = pcall(require,'indent_blankline')
     end
         vim.opt.listchars:append "space:⋅"
         vim.opt.list = true
-        vim.opt.listchars:append "eol:↴"
+       -- vim.opt.listchars:append "eol:↴"
     blankline.setup{
       space_char_blankline = " ",
       show_current_context = true,
