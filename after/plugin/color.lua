@@ -1,6 +1,7 @@
 vim.g.catppuccin_flavour = "latte" -- latte, frappe, macchiato, mocha
 
-require("catppuccin").setup({transparent_background = true,
+require("catppuccin").setup({
+             transparent_background = true,
 			 term_colors = true,
              color_overrides = {
                  latte = { -- copied from gruvbox theme
@@ -31,6 +32,12 @@ require("catppuccin").setup({transparent_background = true,
 					mantle = "#1d2021",
 					crust = "#1b1b1b",
                 }
-            }
+            },
+            integrations = {
+                cmp = true,
+                nvimtree = true,
+                telescope = true,
+                notify =true,
+            },
 })
 vim.cmd [[colorscheme catppuccin]]
