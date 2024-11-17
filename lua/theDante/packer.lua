@@ -33,6 +33,10 @@ return require('packer').startup(function(use)
     use{'tpope/vim-fugitive'}
     use{'rcarriga/nvim-notify'}
     use{'norcalli/nvim-colorizer.lua'}
+    use{'epwalsh/obsidian.nvim',
+        tag = "*",
+        requires={'nvim-lua/plenary.nvim'}
+    }
 	use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',

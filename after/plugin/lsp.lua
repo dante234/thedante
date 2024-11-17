@@ -67,10 +67,6 @@ local function notify_diagnostics(severity, bufnr)
             vim.notify(message, vim.log.levels.ERROR) -- Notificar errores
         elseif severity == vim.diagnostic.severity.WARN then
             vim.notify(message, vim.log.levels.WARN) -- Notificar advertencias
-        elseif severity == vim.diagnostic.severity.INFO then
-            vim.notify(message, vim.log.levels.INFO) -- Notificar Informacion
-        elseif severity == vim.diagnostic.severity.HINT then
-            vim.notify(message, vim.log.levels.HINT) ---- Notificar Hint 
         end
     end
 end

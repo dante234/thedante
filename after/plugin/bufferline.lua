@@ -32,7 +32,7 @@ bufferline.setup({
     },
     highlights = {
         separator = {
-            fg = "#ff6f61",    -- Naranja vibrante para los separadores
+            fg = "#006f61",    -- Naranja vibrante para los separadores
             bg = "#1d1d1d",    -- Fondo oscuro de la barra
         },
         separator_selected = {
@@ -59,7 +59,7 @@ bufferline.setup({
             bg = "#1d1d1d",    -- Fondo oscuro de los botones de cerrar
         },
         close_button_selected = {
-            fg = "#ff2d2d",    -- Rojo fuerte para el botón de cerrar en la pestaña seleccionada
+            fg = "#002d2d",    -- Rojo fuerte para el botón de cerrar en la pestaña seleccionada
         },
         fill = {
             bg = "#000000",    -- Fondo de la barra cuando no hay pestañas abiertas
