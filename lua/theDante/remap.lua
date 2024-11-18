@@ -51,3 +51,10 @@ vim.keymap.set("n", "<leader>on", "<cmd>ObsidianNew<CR>", { desc = "Create New N
 vim.keymap.set("n", "<leader>os", "<cmd>ObsidianSearch<CR>", { desc = "Search Obsidian" })
 vim.keymap.set("n", "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", { desc = "Quick Switch" })
 vim.keymap.set("n", "<leader>od", "<cmd>ObsidianDailies<CR>", {desc = "Crear Nota Diaria "})
+
+
+------- Diccionario------
+vim.keymap.set("n", "<leader>ts", ":setlocal spell spelllang=es<CR>", { desc = "Toggle spell checking" })
+vim.keymap.set("n", "<leader>zs", "]s", { desc = "Next misspelled word" })
+vim.keymap.set("n", "<leader>za", "[s", { desc = "Previous misspelled word" })
+vim.keymap.set("n", "<leader>zz", "z=", { desc = "Suggest corrections" })

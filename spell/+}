@@ -1,0 +1,85 @@
+---
+id: 1731889854-jenkins
+aliases: []
+tags: []
+Relacion:
+  - "[[JAVA|java]]"
+  - "[[SPRING|SpRING]]"
+---
+
+# Jenkins
+
+---
+
+## Concepto
+
+---
+
+- Es un servidor de automatizacion utilizado para implementar precticas de
+  integración (CI) Entrega Continua
+
+- Esto permite a los desarrolladores y equipos de operaciones automatizar los
+  procesos repetitivos y tediosos relacionando con el desarrollo de
+  software,como la compilación, las pruebas y el despliegue
+
+  ## Arquitectura Jenkins
+
+  ***
+
+  ### Master
+
+---
+
+- Es el nucleo de jenkins y el componente principal que coordina todas las
+  tareas. El master es el responsable de gestionar la ejecución de los trabajos
+  y de distribuir las cargas de trabajo a los nodos agentes.
+
+- Controla la interfaz web de jenkins, la gestion de la confiuguracion y el
+  almacenamiento de datos relacionados con los trabajos de automatizacion.
+
+- también se encarga de administrar los plugins y otros aspectos de
+  configuración.
+
+  ### Worker(Agente)
+
+---
+
+- Los agentes son maquinas o instancias que se conectan al master de jenkins
+  para ejecutar trabajos. Pueden ser de servidores fisicos o virtuales.
+
+- los agentes permiten distrinuir la carga de trabajo y ejecutar los trabajos en
+  paralelo, lo que mejora la eficiencia, especialmente en proyectos grandes o
+  cuando se necesitan recursos de hardware especificos para ciertos trabajos.
+
+- los agentes pueden ser diferentes para cada tipo de tarea (por ejemplo, uno
+  para ejecutar compilaciones de java y otro para ejecutar pruebas de selenium).
+
+  ### Plugins
+
+  ***
+
+  Son extensibles gracias a su sistemas de plugins que permite integrar la
+  herramienta con otras tecnologias.
+
+  ### Jobs / proyectos
+
+---
+
+- En jenkings, un job o proyecto es una unidad basica de trabajo. Es el conjunto
+  de tareas o pasos que jenkins ejecuta, como la compilacion, las pruebas o el
+  despliegue.
+
+  ### Pipeline
+
+---
+
+- Un pipeline en jenkins es un conjunto de etapas que defuinen el proceso
+  completo de automatizacion de la integracion continua y entrega continua
+
+- Un pipeline en jenkins no es un tipo de job en si mismo, sino in tipo de flujo
+  de trabajo. Un pipeline dscribe como y en que orden deben ejecutarse las
+  tareas dentro de un job generalmente en un proceso de CI/CD.
+
+  ## instalacion
+
+  ***

@@ -1,0 +1,69 @@
+---
+id: 1731886898-ci-cd
+aliases:
+  - CI-CD
+tags:
+  - PROGRAMACION
+---
+
+## CONCEPTO
+
+---
+
+- Es una seria de practicas para automatizar y optimizar el desarrollo de
+  software, haciendo que el código llegue a producción de manera rápida, segura
+  y frecuente
+
+- Estas practicas incluyen varias etapas que van desde la integración del código
+  (CI) hasta la entrega y despliegue de versiones actualizadas(CA)
+
+- CI y CD son dos acrónimos que se utilizan en las practicas de desarrollo
+  actuales y DevOps. Son las siglas de "integración continua".
+
+- Una practica fundamental recomendada de DevOps en la que los desarrolladores
+  fusionan con frecuencia los cambios de código de un repositorio central donde
+  se ejecutan compilaciones y pruebas automatizadas.
+
+- Sin Embargo, "CD" puede significar "entrega continua" o "implementación
+  continua".
+
+### CI (integracion Continua)
+
+- CI es el proceso de integrar los cambios de código frecuentemente en un
+  repositorio compartido.
+- cada vez que un desarrollador realiza un cambio en el código ese se prueba
+  automáticamente para detectar errores temprano.
+- Para que sirve Detectar y solucionar errores rápidamente, evitando la
+  acumulación de problemas cuando el código se integra en un fase final.
+
+### CD (Entrega Continua)
+
+    La entrega continua amplia CI al prepara automaticamente el codigo para su lanzamiento en produccion.
+    aunque no e despliega automaticamente, el codigo siempre esta en una version de produccion lista para ser aprobada y lanzada manualmente.
+    Facilita que el codigo aprobado y estale este siempre listo para se desplegado, reduciendo los tiempos de entrega
+
+### Despliegue Continuo
+
+- Despliegue Continuo va un paso mas alla que la entrega continua. En lugar de
+  requerir una aprobacion manual, el codigo pasa automaticamente aproduccion si
+  supera todas las pruebaas.
+
+## Diferencias
+
+---
+
+- CI se enfoca en integrar y probar código automaticamente cada vez que un
+  cambio de enviá al repositorio.
+
+- Entrega continua asegura que el cosigo este siempre listo para produccion,
+  pero aun requiere una autorizacion para lanzarlo
+
+- Despliegue continuo lleva a produccion automaticamente tras superar las
+  pruebas.
+
+## LINK
+
+---
+
+[youtube](https://www.youtube.com/watch?v=LZDmM_t4XRg&t=173s&ab_channel=LaTecnolog%C3%ADaAvanza)
+Curso Basico De Youtube
